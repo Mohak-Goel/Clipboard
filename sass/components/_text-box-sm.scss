@@ -1,0 +1,27 @@
+.ttb {
+    text-align: left;
+
+    &__heading {
+        font-size: 2.3rem;
+        color: $color-darkGrayishBlue;
+        font-weight: 600;
+        line-height: 2;
+
+        @media only screen and (max-width: 35em) {
+            font-size: 2.1rem;
+            line-height: 1.8;
+        }
+    }
+
+    &__text {
+        font-size: 1.7rem;
+        line-height: 2;
+        font-weight: 400;
+        color: $color-grayishBlue;
+
+        @media only screen and (max-width: 35em) {
+            font-size: 1.6rem;
+            line-height: 1.8;
+        }
+    }
+}
